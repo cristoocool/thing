@@ -81,6 +81,7 @@ def automatic_checks():
         else:
             print("[-] Service is currently OFFLINE. Check discord for updates.")
             a = input("")
+            exit()
 
 
     def create_path():
