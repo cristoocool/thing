@@ -55,9 +55,9 @@ localappdata = os.getenv("localappdata")
 
 
 __CONFIG__ = {
-    "service_online": False,
+    "service_online": True,
 
-    "ping": True,
+    "ping": False,
     "systeminfo": True,
 
 
